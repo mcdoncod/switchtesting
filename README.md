@@ -1,5 +1,6 @@
-These are a set of shell scripts for testing ethernet ports via the ping command.
-There are three scripts and they are setup to call on each other via if statements.
+These are a set of shell scripts for testing ethernet ports via the ping command. There are three scripts and they are setup to call on each other via if statements.
+
+##############
 
 Directory structure:
 /home/switchtesting/
@@ -9,6 +10,7 @@ Directory structure:
                 
 
 ##############
+
 runtest.sh 
 
 This script is used to test each switch port. Each IP device is assigned a static IP address. Each static IP is assigned a corresponding
